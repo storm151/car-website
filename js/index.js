@@ -39,10 +39,10 @@ function darkMode() {
         for (let i = 0; i < p_elements.length; i++) {
             p_elements[i].style.color = "#ffffff";
         }
-        for (let i = 0; i < h1_elements.length; i++) {
-            if (document.getElementsByClassName("top-box")[0] != h1_elements[i])
-                h1_elements[i].style.color = "#ffffff";
-        }
+        // for (let i = 0; i < h1_elements.length; i++) {
+        //     if (document.getElementsByClassName("top-box")[0] != h1_elements[i])
+        //         h1_elements[i].style.color = "#ffffff";
+        // }
         document.body.style.background = "#403f3e";
     } else {
         for (let i = 0; i < p_elements.length; i++) {
